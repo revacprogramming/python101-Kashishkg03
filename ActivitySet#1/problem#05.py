@@ -1,15 +1,17 @@
-score = float(input("Enter Score from'0.0-1.0'"))
-if score<=1.0:
- if score >=0.9:
+score = input("Enter Score: ")
+s= float(score)
+if s>1.0:
+    print("Entered value is greater than the range ")
+elif s<0.0:
+    print("Entered value is lesser than the range ")
+elif s>=0.9:
     print("A")
-elif score>= 0.8:
+elif s>= 0.8:
     print("B")
-elif score>= 0.7:
+elif s>= 0.7:
     print("C")
-elif score>= 0.6:
+elif s>= 0.6:
     print("D")
-elif score< 0.6:
+else :
     print("F")
-else:
-    print("out of order from'0.1-1.0'")
 
