@@ -14,4 +14,5 @@ elif s>= 0.6:
     print("D")
 else :
     print("F")
+  
 
