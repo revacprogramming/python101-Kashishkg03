@@ -1,17 +1,11 @@
-score = input("Enter Score: ")
-s= float(score)
-if s>1.0:
-    print("Entered value is greater than the range ")
-elif s<0.0:
-    print("Entered value is lesser than the range ")
-elif s>=0.9:
-    print("A")
-elif s>= 0.8:
-    print("B")
-elif s>= 0.7:
-    print("C")
-elif s>= 0.6:
-    print("D")
-else :
-    print("F")
+def computepay(h, r):
+    if h<=40:
+        value=h*r
+    else:
+        value=40*r + (h-40)*r*1.5
+    return value
 
+hrs = int(input("Enter Hours:"))
+rate= float(input("Enter rate: "))
+p = computepay(hrs, rate)
+print("Pay", p)
