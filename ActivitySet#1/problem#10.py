@@ -9,5 +9,3 @@ for line in fh:
             lst.append(word)
     lst.sort()
 print(lst)
-
- 
