@@ -9,3 +9,5 @@ hrs = int(input("Enter Hours:"))
 rate= float(input("Enter rate: "))
 p = computepay(hrs, rate)
 print("Pay", p)
+
+#code is reviewed 

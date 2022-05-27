@@ -15,3 +15,4 @@ elif s>= 0.6:
 else :
     print("F")
 
+#code is reviewed 

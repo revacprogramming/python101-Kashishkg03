@@ -3,3 +3,5 @@ pos = text.find(':')
 p = text[pos+1:]
 end = float(p)
 print(end)
+
+#code is reviewed 
