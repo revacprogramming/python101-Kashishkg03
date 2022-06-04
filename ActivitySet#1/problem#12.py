@@ -1,6 +1,4 @@
 name = input("Enter file:")
-if len(name) < 1:
-    name = "mbox-short.txt"
 handle = open(name)
 lst = list()
 for line in handle:
