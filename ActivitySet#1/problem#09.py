@@ -16,4 +16,5 @@ for line in fn:
 average = total / count
 print('Average spam confidence:', average)
 
+
 #code is reviewed 
