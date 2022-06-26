@@ -8,3 +8,4 @@ for line in fhand:
   for i in range(length):
      sum = sum + int(num[i])
 print(sum)
+
