@@ -9,3 +9,5 @@ for line in fhand:
      sum = sum + int(num[i])
 print(sum)
 
+
+
