@@ -1,18 +1,14 @@
-
 def add(a, b):
-    pass  # ...
-
+    return(a+b)
+    pass
 
 def output(a, b, sum):
-    pass  # ...
-
+    print(a,"+",b,"is",sum)
+    pass
 
 def main():
-    a, b = input_two_numbers()
+    a,b =map(int,input("enter two numbers:").split())
     sum = add(a, b)
 
     output(a, b, sum)
-
-
-if __name__ == '__main__':
-    main()
+main()
