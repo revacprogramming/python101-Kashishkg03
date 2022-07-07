@@ -1,6 +1,7 @@
 from urllib import request
 import xml.etree.ElementTree as ET
 
+
 url = 'http://python-data.dr-chuck.net/comments_24966.xml'
 print ("Retrieving", url)
 html = request.urlopen(url)
