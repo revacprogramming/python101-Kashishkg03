@@ -1,3 +1,5 @@
+
+
 def get_cs():
     """get string input"""
     a = input("enter the input")
