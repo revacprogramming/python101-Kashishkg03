@@ -16,10 +16,11 @@ def cs_to_lot(cs):
 
 def lot_to_cs(lot):
     """convert list of strings to connected string"""
-    
+    l = []
     for j in lot:
-        
-
+      l.append("=".join(j))
+    return(";".join(l))
+    
 def main():
     cs=get_cs()
 
@@ -30,3 +31,4 @@ def main():
     print(cs)
 
 main()
+
